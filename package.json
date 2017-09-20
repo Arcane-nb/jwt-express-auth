@@ -1,0 +1,29 @@
+{
+  "name": "jwt-express-auth",
+  "version": "1.0.0",
+  "description": "Auth system example with Express.js &amp;  JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcane-nb/jwt-express-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arcane-nb/jwt-express-auth/issues"
+  },
+  "homepage": "https://github.com/Arcane-nb/jwt-express-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1"
+  }
+}
