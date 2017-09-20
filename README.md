@@ -5,9 +5,9 @@ Auth system example with Express.js &amp;  JWT
 node app.js
 ```
 
-** Need to check your config.js!! **
+**Need to check your config.js!!**
 
-###config.js
+### config.js
 ```
 module.exports = {
     'secret': 'SeCrEtKeYfOrHaShInG',
@@ -62,3 +62,5 @@ APIs in user routes need admin's permission to process
 
 **Description**: assigns admin permission to the given user. Token should be passed as Url-encoded query or `x-access-token` header
 
+## Based On
+[Velopert](https://velopert.com/2448)
